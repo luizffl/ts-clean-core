@@ -15,7 +15,3 @@ export class ApplicationError extends Error {
     return applicationError;
   }
 }
-
-export class UserNotFoundError extends ApplicationError {
-  message = "User not found.";
-}
